@@ -1,0 +1,6 @@
+{
+  "appId": "com.ran.wealth.app",
+  "appName": "rna-wealth",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+}
