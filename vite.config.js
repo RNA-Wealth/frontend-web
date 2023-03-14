@@ -10,5 +10,12 @@ export default defineConfig({
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
-  }
+  },
+  build: {
+    base: '/frontend-web/',
+  },
+  // base: import.meta.env.MODE === 'production' ? '/frontend-web/' : '/',
+  optimizeDeps: {
+    include: ['@vueuse/core'],
+  },
 })
