@@ -10,6 +10,8 @@ import HelloWorld from './components/HelloWorld.vue'
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
       <p-button>123</p-button>
+      <p-button>456666666</p-button>
+      <p-button>7899999999999</p-button>
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
