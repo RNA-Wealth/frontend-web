@@ -11,11 +11,9 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
-  build: {
-    base: '/frontend-web/',
-  },
-  // base: import.meta.env.MODE === 'production' ? '/frontend-web/' : '/',
-  optimizeDeps: {
-    include: ['@vueuse/core'],
-  },
+  // base: process.env.NODE_ENV === 'production' ? '/frontend-web/' : '/',
+  // build: {
+  //   base: '/frontend-web/',
+  // },
 })
+
